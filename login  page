@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+         
+       .mt-0 {
+  margin-top: 11% !important;
+  
+}
+        .mt-3 {
+  padding:10px !important;
+  
+  
+}
+.mt-4{
+    margin-left: 20px;
+}
+        
+        h1{
+            font-weight: bolder;
+        color:rgb(243, 236, 236);
+        text-align: center;
+        text-decoration: underline; 
+         
+        }
+        body{
+            background-image: url("https://th.bing.com/th/id/R.5de5b8e8543671dabd4cc27adcbc7af6?rik=W%2b8GuMSPuHCvMg&riu=http%3a%2f%2fwww.drumangle.com%2fsandbox%2fwp%2f21813%2fwp-content%2fuploads%2f2014%2f01%2fLogin-Screen-Background-Wood-5.jpg&ehk=TMHzqnjBfrbyPDJOa5r%2faEW5KXaTmc2Hw4CZtBCgTdk%3d&risl=&pid=ImgRaw&r=0");
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6 mt-0" >
+                <form class="form-horizontal" action="">
+                    <fieldset style="border: solid gray; height: 9
+                    0%;">
+                    <h1>Login Page</h1> <hr>
+                    <div class="form-group mt-3">
+                      <label class="control-label col-sm-2" for="email" style="color: white;">Email:</label>
+                      <div class="col-sm-10">
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" >
+                      </div>
+                    </div>
+                    <div class="form-group mt-3">
+                      <label class="control-label col-sm-2" for="pwd" style="color: white;">Password:</label>
+                      <div class="col-sm-10">          
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd" >
+                      </div>
+                    </div>
+                    
+                    <div class="form-group mt-3"  >        
+                      <div class="col-sm-offset-2 col-sm-10">
+                        <a href="https://github.com/sompuraharsh1" class="btn btn-primary stretched-link">LOGIN</a>
+                        <!-- <a href="www.google.com"><button type="submit" class="btn btn-primary">Login</button></a>  -->
+                        <a href="signup.html" class="btn btn-primary stretched-link mt-4">SIGN UP</a>
+                      </div>
+                      
+                        
+                      
+                    </div>
+                </fieldset>
+                  </form>
+                
+
+            </div>
+            <div class="col-sm-3"></div>
+
+        </div>
+        
+        
+      </div>
+    
+
+</body>
+
+</html>
